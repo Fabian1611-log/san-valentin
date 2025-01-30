@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Quieres ser mi San Valentín?</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #ffe6e6;
+            padding: 50px;
+        }
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            display: inline-block;
+        }
+        h1 {
+            color: #d63384;
+        }
+        p {
+            font-size: 18px;
+            color: #555;
+        }
+        .heart {
+            color: red;
+            font-size: 30px;
+        }
+        .buttons {
+            margin-top: 20px;
+        }
+        .btn {
+            padding: 10px 20px;
+            margin: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 18px;
+        }
+        .yes {
+            background-color: #ff4081;
+            color: white;
+        }
+        .no {
+            background-color: #ccc;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>💖 ¿Quieres ser mi San Valentín? 💖</h1>
+        <p>Eres la persona más especial en mi vida, y no puedo imaginar este día sin ti. 🌹</p>
+        <div class="buttons">
+            <button class="btn yes" onclick="alert('¡Sabía que dirías que sí! 💘')">Sí, claro 💕</button>
+            <button class="btn no" onclick="alert('¡Oh no! 😢 Pero igual te quiero mucho.')">No 😢</button>
+        </div>
+    </div>
+</body>
+</html>
